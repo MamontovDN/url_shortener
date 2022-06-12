@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from src.api.ping import ping_router
+from src.api.routes.ping import ping_router
 
 app = FastAPI()
 
